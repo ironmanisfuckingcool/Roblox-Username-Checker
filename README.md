@@ -1,5 +1,8 @@
 > Works as of November 1, 2022
 
+### Info:
+It checks all usernames, but in random order due to some threads being too fast/slow.
+
 ### Features:
 - [x] Proxyless
 - [x] Threaded
