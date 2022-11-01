@@ -2,6 +2,7 @@
 
 ### Info:
 It checks all usernames, but in random order due to some threads being too fast/slow.
+Took me about 5 minutes to check all 3 character combinations (17K+).
 
 ### Features:
 - [x] Proxyless
