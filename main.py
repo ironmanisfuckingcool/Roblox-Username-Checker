@@ -3,8 +3,7 @@ import requests, threading, itertools
 class Main:
     def __init__(self):
         with open('usernames.txt', 'r', encoding = 'UTF-8') as file:
-            self.usernames = file.read().splitlines()
-        self.username_pool = itertools.cycle(self.usernames)
+            self.username_pool = itertools.cycle(file.read().splitlines())
 
     def get_x_csrf_token(self):
         return requests.post('https://auth.roblox.com/').headers['x-csrf-token']
