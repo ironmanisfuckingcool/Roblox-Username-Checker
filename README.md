@@ -1,4 +1,4 @@
-> Works as of January 3, 2022
+> Works as of January 3, 2023
 
 ### Info:
 It checks all usernames, but in random order due to some threads being too fast/slow.
